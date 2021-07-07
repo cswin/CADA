@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@8096a5bb-f635-46a3-a1f8-c316c5869c9c" />
+        <remote-mappings server-id="python@sftp://charlietran@10.15.225.64:22/home/charlietran/anaconda3/envs/da/bin/python3.6">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/charlietran/CADA_Tutorial" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>
