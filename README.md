@@ -35,7 +35,7 @@ to confuse the domain classifier. Meanwhile, the ensembling of weights via EMA r
 uncertainty of adapting multiple discriminator learning. Comprehensive experimental results 
 demonstrate that our CADA model incorporating multi-scale input training can overcome 
 performance degradation and outperform state-of-the-art domain adaptation methods in 
-segmenting retinal optic disc and cup from fundus images stemming from the REFUGE, DrishtiGS, and Rim-One-r3 datasets.
+segmenting retinal optic disc and cup from fundus images stemming from the REFUGE, Drishti-GS, and Rim-One-r3 datasets.
 
 ## 2. Domain shift 
 
@@ -51,12 +51,13 @@ segmenting retinal optic disc and cup from fundus images stemming from the REFUG
 * Drishti-GS: https://cvit.iiit.ac.in/projects/mip/drishti-gs/mip-dataset2/Home.php
 * Rim-One-r3: https://medimrg.webs.ull.es/research/retinal-imaging/rim-one/
 
-Pre-process the ROI's by running src/data_preprocess/generate_ROI.py. 
+Pre-process the original images by running src/data_preprocess/generate_ROI.py. 
 
 ## 2. Directories
-* Go to REFUGE.py and change the directories for the source, target, and testing domains, for both the image and masks
-* In arguments.py, change the directories for tensorboard and model weights. This will need to be done as well in predict.py for the model weights loading and the model prediction.
-* 
+* For data loading, in REFUGE.py, change the directories for the source, target, and testing domains, for both the image and masks
+* For training, in arguments.py, change the directories for tensorboard and model weights. 
+* For testing, in predict.py, change the model weights and model results directories.
+
 ### 3. Train the model:
  
    ```shell
