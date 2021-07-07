@@ -1,7 +1,7 @@
 # CADA
 Multi-scale Collaborative Adversarial Domain Adaptation for Unsupervised Optic Disc and Cup Segmentation
 
-### Pytorch implementation of CFEA.
+### Pytorch implementation of CADA.
 
 This is a Pytorch implementation of the paper "Multi-scale Collaborative Adversarial Domain Adaptation for Unsupervised Optic Disc and Cup Segmentation". 
 
