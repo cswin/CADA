@@ -51,7 +51,7 @@ segmenting retinal optic disc and cup from fundus images stemming from the REFUG
 * Drishti-GS: https://cvit.iiit.ac.in/projects/mip/drishti-gs/mip-dataset2/Home.php
 * Rim-One-r3: https://medimrg.webs.ull.es/research/retinal-imaging/rim-one/
 
-Pre-process the original images by running src/data_preprocess/generate_ROI.py. 
+Pre-process the original images by running /data_preprocess/generate_ROI.py. 
 
 ## 2. Directories
 * For data loading, in REFUGE.py, change the directories for the source, target, and testing domains, for both the image and masks
@@ -61,7 +61,6 @@ Pre-process the original images by running src/data_preprocess/generate_ROI.py.
 ### 3. Train the model:
  
    ```shell
-   cd src
    python CADA.py
    ```
 ### 4. Predict the masks:
