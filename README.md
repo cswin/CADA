@@ -1,4 +1,4 @@
-# Multi-scale Collaborative Adversarial Domain Adaptation for Unsupervised Optic Disc and Cup Segmentation
+# Multi-scale Collaborative Adversarial Domain Adaptation (CADA) for Unsupervised Optic Disc and Cup Segmentation
 
 ### Pytorch implementation of CADA.
 
